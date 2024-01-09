@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Header CSS */
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: auto;
+    background-color: rgb(223, 129, 58);
+    border-radius: 5px;
+    box-shadow: -1px 4px 20px 14px rgba(0, 0, 0, 0.2);
+    color: black;
+    font-weight: bold;
+}
+
+
+.logo{
+    /* padding-left: 10px; */
+    margin: 5px;
+    width: 100px;
+}
+
+.nav-items{   
+    padding: 0 10px 0;
+    width: auto;
+}
+
+.nav-items > ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-items > ul > li{
+    padding: 40px 10px 20px 20px;
+    font-size: large;
+    cursor: pointer;
+    
+}
+.link{
+    color: black;
+    text-decoration: none;
+}
+.link:hover{
+    background-color: aliceblue;
+    color: red;
+}
+.login{
+    padding: 15px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+/* Body CSS */
+
+.restaurant-list{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.card{
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: -1px 4px 20px 14px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    background-color: rgb(252, 163, 95);
+}
+
+.card > img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card > span{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card > span > h4{
+    text-align: center;
+}
+
+.card > span > h4:first-child{
+    display: flex;
+    align-items: center;
+    background-color: rgb(19, 176, 1);
+    border-radius: 5px;
+    padding: 0 5px 0;
+    color: white;
+}
+
+.card > span > h4:first-child .fa-star{
+    font-size: small;
+    padding: 0 5px 3px 0;
+}
+
+.filter{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    
+}
+
+.filter-btn{
+    /* padding: 10px; */
+    /* margin: 20px; */
+    cursor: pointer;
+}
+.search-box{
+    padding: 5px;
+    
+}
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer-card{
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+    background-color: gainsboro;
+}
+
+.error{
+    padding: 250px;
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: darkgray;
+    color: rgb(231, 22, 64);
+
+   
+}
+
+/* about */
+.user-card{
+    padding: 10px;
+    margin: 20px;
+    border :1px solid black;
+}
+.user-card > h2,h3,h4{
+    margin: 10px;
+}
+.about > p{
+    font-size: large;
+    margin: 5px;
+}
+
+
+
+/* footer CSS */
+.footer {
+    margin: 10px;
+    width: auto;
+    text-align: center;
+    background-color: rgb(223, 129, 58);
+    padding: 20px 10px 20px;
+    border-radius: 5px;
+    box-shadow: -1px 4px 20px 14px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  .footer > i {
+    padding: 0 5px 0;
+    font-size: smaller;
+  }
+  
+  .fa-heart {
+    color: darkred;
+  }
+  
+  .footer > strong {
+    padding-left: 5px;
+  }
+  
+  .footer > strong > span {
+    color: red;
+  }
+
+  /* contact */
+
+  .contact{
+    padding: 20px;
+    margin: 20px;
+    border :1px solid black;
+  }
+.mb-3{
+    margin: 10px;
+}
+.info > p{
+    margin: 20px;
+  
+}
+
